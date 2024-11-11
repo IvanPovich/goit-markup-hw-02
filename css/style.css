@@ -1,0 +1,48 @@
+:root {
+  --white-color: #fff;
+  --iris-color: #4D5AE5;
+  --cloud-color: #F4F4FD;
+  --navy-blue-color: #2E2F42;
+  --slate-color:#434455;
+
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16;
+  line-height: 1,5;
+  letter-spacing: 0.02em;
+  background-color: var(--white-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+.nav-link {
+  color: var(--navy-blue-color);
+}
+
+.contact-link {
+  font-style: normal;
+  color: var(--slate-color);
+}
+
+.main-first-section {
+  background-color: var(--navy-blue-color);
+  color: var(--white-color);
+}
+
+.main-button {
+  background-color: var(--iris-color);
+  color: var(--white-color);
+  letter-spacing: 0.04em;
+
+  border: none;
+  border-radius: 4px;
+}
